@@ -1,0 +1,42 @@
+/* style.css */
+body {
+  color: black;
+  font-size: 18px;
+  background-color: #E77A7A;
+}
+
+h1, h2, h3{
+  color: white;
+  background-color: #282424;
+    opacity: 0,2;
+
+}
+   .banner {
+  background-image: url('https://i.ytimg.com/vi/zfAcYG2HE2s/maxresdefault.jpg');
+  text-align: center;
+  background-position: center;
+  padding: 150px 0;
+   background-size: cover;
+  
+}
+
+a, p {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+  a {
+  	background-color: #C62B2B;
+  }
+}
+
+a:hover {
+  color: #CE2FAE;
+}/* Write some CSS below */
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
